@@ -8,5 +8,5 @@
   tasks:
     - ansible.builtin.include_role:
         name: "{{ item }}"
-  vars:
-    item: "{{ roles }}"
+      vars:
+        item: "{{ roles }}"
