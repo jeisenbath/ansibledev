@@ -3,3 +3,8 @@
   tasks:
     - ansible.builtin.include_role:
         name: base
+
+- hosts: multimedia
+  tasks:
+    - ansible.builtin.include_role:
+        name: "{{ roles }}"
