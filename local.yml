@@ -8,5 +8,4 @@
   tasks:
     - ansible.builtin.include_role:
         name: "{{ item }}"
-      vars:
-        item: "{{ roles }}"
+      loop: "{{ roles }}"
