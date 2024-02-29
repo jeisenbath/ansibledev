@@ -7,4 +7,6 @@
 - hosts: multimedia
   tasks:
     - ansible.builtin.include_role:
-        name: "{{ roles }}"
+        name: "{{ item }}"
+  vars:
+    item: "{{ roles }}"
