@@ -4,7 +4,7 @@
     - ansible.builtin.include_role:
         name: base
 
-- hosts: multimedia
+- hosts: workstation
   tasks:
     - ansible.builtin.include_role:
         name: "{{ item }}"
