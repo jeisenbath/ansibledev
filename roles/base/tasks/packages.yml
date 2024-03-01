@@ -1,7 +1,0 @@
-- name: Install packages for all hosts
-  become: true
-  ansible.builtin.package:
-    name: "{{ item }}"
-    state: present
-  vars:
-    item: "{{ base_packages }}"

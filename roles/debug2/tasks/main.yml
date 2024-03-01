@@ -1,3 +1,0 @@
-- name: Debug2 | Print message
-  ansible.builtin.debug:
-    msg: "Debug2"

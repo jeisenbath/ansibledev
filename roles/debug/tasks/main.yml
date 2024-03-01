@@ -1,3 +1,0 @@
-- name: Debug | Print message
-  ansible.builtin.debug:
-    msg: "Provisioning OK"
