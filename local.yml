@@ -7,5 +7,4 @@
 - hosts: workstation
   tasks:
     - ansible.builtin.include_role:
-        name: "{{ item }}"
-      loop: "{{ roles }}"
+        name: workstation
