@@ -4,6 +4,7 @@ workstation_finance
 
 [workstation]
 zoltan.home.arpa
+localhost
 
 [workstation_developer]
 zoltandev.home.arpa
